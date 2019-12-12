@@ -1,15 +1,15 @@
 # Compiler for Tekton
 
-As we know, there is a SDK of `kubeflow pipeline` for end user to define pipelines for machine learning(ML). Actually the output stuff fo the SDK is yaml for [Argo](https://github.com/argoproj/argo).
+As we know, there is an SDK of `Kubeflow Pipeline` for end users to define pipelines for Machine Learning(ML). The output of the compiler from SDK is the yaml for [Argo](https://github.com/argoproj/argo).
 
-In this place, we try to update the `Comiler` of SDK to generate `Tekton` stuff.
+In its place, we have created an intial prototype to have the `Compiler` of SDK to generate `Tekton` yaml for a sequential pipeline scenario. 
 
 ## Development Prerequisites
 1. [`Python`](https://www.python.org/downloads/): Python 3.5 or later  
 2. [`Conda`](https://docs.conda.io/en/latest/): Package, dependency and environment management for Python
 
 
-## Take a try  
+## Steps
 
 1. Setup Python env with Conda.
 
@@ -34,7 +34,7 @@ In this place, we try to update the `Comiler` of SDK to generate `Tekton` stuff.
 
 ## Description
 
-For now, it's just tiny change to the original Compiler only support make a `sequential` case.
+For now, it's a prototype change to the original Compiler only  to support `Sequential` case. We will be evolving this as we move along
 
 
 
